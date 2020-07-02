@@ -1,3 +1,4 @@
 # Networking
  Referensi:
- - https://github.com/RoutingBantenprov/Network
+ - Routing statis: https://github.com/RoutingBantenprov/Network
+ - Routing dinamis: 
