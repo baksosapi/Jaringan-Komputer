@@ -163,4 +163,13 @@
 * `print`
 * `/ip dhcp-server`
 * `print`
-* `add name="DHCP GUEST" address-pool=GuestNet 
+* `add name="DHCP GUEST" address-pool=GuestNet`
+
+#### Masquerading / Penyamaran
+* `/ip firewall address-list`
+* `print`
+* `add list=guest address=192.168.200.0/24`
+* `/ip firewall nat`
+* `print`
+* `add comment="for guests" chain=srcnat action=masquerade src-address-list=guest out-interface=ether1`
+* Ubah angka=5 destination=0
