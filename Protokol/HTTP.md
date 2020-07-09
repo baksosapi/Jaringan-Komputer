@@ -292,7 +292,7 @@ __`Response: `__
 > Identifier lengkap dari halaman yang diminta: 
 
 __`Response: `__` 
-http: //www.rm06 .ip.lab / 1.html` 
+http://www.xyz.ip.lab/1.html` 
 
 > Jumlah paket pertama dari respons HTTP:
 
